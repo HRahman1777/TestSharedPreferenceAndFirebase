@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTxt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="8am"
+        />
+    <EditText
+        android:id="@+id/editTxt10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="10am"
+        />
+    <EditText
+        android:id="@+id/editTxt12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="12pm"
+        />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        />
+    <Button
+        android:id="@+id/loadBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/TxtVw8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8am"
+            />
+        <TextView
+            android:id="@+id/TxtVw10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:text="10am"
+            />
+        <TextView
+            android:id="@+id/TxtVw12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:text="12pm"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/intentBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Next"
+        />
+
+
+
+</LinearLayout>
